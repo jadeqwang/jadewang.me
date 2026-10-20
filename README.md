@@ -7,8 +7,9 @@ It's a single static page: plain HTML, CSS and a little JavaScript. There's no b
 ## Before it goes live
 
 - [x] **Bio**: done (About section of `index.html`).
-- [ ] **Moongazing 望明月**: its *Listen* link points to the artist page; swap in the song's own Spotify link.
-- [ ] **YouTube video**: pick what plays in the *Watch* box (see below). Until then it links to the channel.
+- [x] **Moongazing 望明月**: links to its own Spotify track.
+- [x] **YouTube video**: the *Watch* box plays Rewind.
+- [ ] **Rewind**: its tracklist link goes to the YouTube video; swap in the Spotify link once it's live.
 
 ## Preview it on your computer
 
@@ -28,7 +29,7 @@ Then open http://localhost:8000. The Spotify player only loads when you're onlin
 | Coming soon | `track track--soon` | `<span class="track-status">Coming soon</span>` |
 | In the works | `track track--wip` | `<span class="track-status">In the works</span>` |
 
-Also update "Three are out now" in the intro paragraph.
+Also update "Four are out now" in the intro paragraph.
 
 **Choose the YouTube video.** In `index.html`, search for `YOUTUBE` and fill in one attribute on the `.yt` box:
 

@@ -32,12 +32,12 @@ The palette comes from the album artwork and matches the printed MOO card.
 
 - Artist: Jade Q Wang. Spotify artist `7vnTuvlsowMY5XmkqCdc84`, YouTube `@JadeQWang`, X `@qiqing`.
 - *Rare Earth* is an album released one song at a time. There's no album release date, so don't add one.
-- Songs: Moongazing 望明月 (out; still needs its own track link), Orbital Sunrise (out, track `1ovDSfnoA9JPNdYeWgjdYo`), Rare Earth (out in two versions: alt pop `42m7clPxBmOoHmdSFTCLIb`, techno remix `3o6YBqvXcNFlbVY5TlZDpd`), Rewind (coming soon), Halys (in the works).
-- Open TODOs in `index.html`: the Moongazing link and the YouTube `data-yt-video` / `data-yt-list`.
+- Songs: Moongazing 望明月 (out, track `5iaRwTBBWpLqXfElAgSNIY`), Orbital Sunrise (out, track `1ovDSfnoA9JPNdYeWgjdYo`), Rare Earth (out in two versions: alt pop `42m7clPxBmOoHmdSFTCLIb`, techno remix `3o6YBqvXcNFlbVY5TlZDpd`), Rewind (out; on YouTube `BU4htU-Rrog`, Spotify link pending), Halys (in the works).
+- Open TODO in `index.html`: the Rewind Spotify link.
 
 ## Common tasks
 
-- **Tracklist changes:** edit the `<ol class="tracklist">`; status classes are documented in the HTML comment above it and in README.md. Keep the intro's "Three are out now" count in sync.
+- **Tracklist changes:** edit the `<ol class="tracklist">`; status classes are documented in the HTML comment above it and in README.md. Keep the intro's "Four are out now" count in sync.
 - **New or replaced images:** export both `.webp` and `.jpg` (quality ~82) into `assets/img/`, keep `width`/`height` attributes accurate, and use `loading="lazy"` for anything below the hero.
 - **Link preview image:** `assets/img/og-image.jpg` is 1200×630. If the name or tagline changes, regenerate it to match.
 
