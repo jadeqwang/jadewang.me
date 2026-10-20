@@ -72,6 +72,7 @@ a:hover { color: var(--orange); }
 /* ---------- type helpers ---------- */
 .display { font-stretch: 125%; font-weight: 800; letter-spacing: -0.01em; line-height: 0.92; }
 .mono { font-family: var(--mono); }
+.nowrap { white-space: nowrap; }
 .kicker {
   font-family: var(--mono); font-size: 14px; font-weight: 500;
   letter-spacing: 0.16em; line-height: 1.4; text-transform: uppercase;
@@ -255,7 +256,8 @@ a:hover { color: var(--orange); }
 }
 .about-card img { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; }
 .about-card h2 { font-size: 48px; line-height: 1; }
-.about-card h2 ~ p { font-size: 19px; line-height: 1.6; }
+.about-card h2 ~ p { font-size: 19px; line-height: 1.6; text-wrap: balance; }
+@media (max-width: 640px) { .about-card h2 ~ p { text-wrap: pretty; } } /* balance only applies to short paragraphs */
 .about-card a:hover { color: inherit; text-decoration-thickness: 2px; } /* orange text fails contrast on cream */
 
 /* ---------- band + footer ---------- */
