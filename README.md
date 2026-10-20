@@ -9,7 +9,7 @@ It's a single static page: plain HTML, CSS and a little JavaScript. There's no b
 - [x] **Bio**: done (About section of `index.html`).
 - [x] **Moongazing 望明月**: links to its own Spotify track.
 - [x] **YouTube video**: the *Watch* box plays Rewind.
-- [ ] **Rewind**: its tracklist link goes to the YouTube video; swap in the Spotify link once it's live.
+- [ ] **Rewind on Spotify**: once it's live there, add it to the "Rare Earth (album)" playlist.
 
 ## Preview it on your computer
 
@@ -25,7 +25,7 @@ Then open http://localhost:8000. The Spotify player only loads when you're onlin
 
 | Status | `class` | Right-hand side |
 |---|---|---|
-| Out now | `track` | `<a href="SPOTIFY_TRACK_LINK">Listen →</a>` |
+| Out now | `track` | `<a href="YOUTUBE_LINK" aria-label="Watch SONG on YouTube">Watch →</a>` |
 | Coming soon | `track track--soon` | `<span class="track-status">Coming soon</span>` |
 | In the works | `track track--wip` | `<span class="track-status">In the works</span>` |
 
