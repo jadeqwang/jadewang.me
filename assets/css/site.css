@@ -152,7 +152,7 @@ a:hover { color: var(--orange); }
 }
 .track:first-child { border-top: 1.5px solid var(--navy); }
 .track:last-child { border-bottom: 1px solid var(--rule); }
-.track-title { font-family: var(--sans); font-size: 17px; font-weight: 500; letter-spacing: 0; }
+.track-title { font-family: var(--sans); font-size: 17px; font-weight: 500; letter-spacing: 0; word-break: keep-all; }
 .track-links { display: flex; gap: 16px; }
 .track-links a, .track > a {
   display: inline-flex; align-items: center; min-height: 44px; font-weight: 500;
