@@ -25,14 +25,14 @@ The palette comes from the album artwork and matches the printed MOO card.
 - **Display type:** Archivo at `font-stretch: 125%`, weight 800, uppercase for headings (`.display`).
 - **Labels and UI:** DM Mono, uppercase, letter-spaced (`.kicker`, `.label`, buttons, nav).
 - **Body:** Archivo at normal width.
-- Chinese characters (e.g. 望明月) fall back to system CJK fonts via the `--sans` and `--mono` stacks.
+- Chinese characters (e.g. 望明月) fall back to system CJK fonts via the `--sans` and `--mono` stacks. Song titles put the Chinese name in parentheses, e.g. "Moongazing (望明月)".
 - Square corners (2px) on buttons; 12px radius only on the media embeds.
 
 ## Content facts (don't invent others)
 
 - Artist: Jade Q Wang. Spotify artist `7vnTuvlsowMY5XmkqCdc84`, "Rare Earth (album)" playlist `7i22u5oEuRglDkWD7JoBW7` (the Listen player embeds it), YouTube `@JadeQWang`, X `@qiqing`.
 - *Rare Earth* is an album released one song at a time. There's no album release date, so don't add one.
-- Songs (Spotify track / YouTube video): Moongazing 望明月 (`5iaRwTBBWpLqXfElAgSNIY` / `_j_IVgA-pf8`), Orbital Sunrise (`1ovDSfnoA9JPNdYeWgjdYo` / `GKVOH-Tjd2U`), Rare Earth (alt pop `42m7clPxBmOoHmdSFTCLIb`, Spotify only; techno remix, the popular version, `3o6YBqvXcNFlbVY5TlZDpd` / `xk2WN7TQn88`), Rewind (Spotify pending / `BU4htU-Rrog`), The Vibe Coding Song (一笔一画) (in the works, next up), Halys (in the works).
+- Songs (Spotify track / YouTube video): Moongazing (望明月) (`5iaRwTBBWpLqXfElAgSNIY` / `_j_IVgA-pf8`), Orbital Sunrise (`1ovDSfnoA9JPNdYeWgjdYo` / `GKVOH-Tjd2U`), Rare Earth (alt pop `42m7clPxBmOoHmdSFTCLIb`, Spotify only; techno remix, the popular version, `3o6YBqvXcNFlbVY5TlZDpd` / `xk2WN7TQn88`), Rewind (Spotify pending / `BU4htU-Rrog`), The Vibe Coding Song (一笔一画) (in the works, next up), Halys (in the works).
 - Tracklist rows link to YouTube ("Watch →"), one link per song; Spotify is covered by the playlist player and the Follow button.
 - Watch pages, shown in "Made for the songs": moongazing.cc (animated video; its International Moonbase uses only real technologies and science experiments, unlike film moonbases) and orbitalsunrise.cc (Leonov's spacewalk and the Voskhod-2 landing; the on-screen equations match what he was computing, from a trajectory reconstruction using mission logs, his memoirs, a weather model and other primary sources). Not every song gets one, so only add a card when one exists.
 - Open TODO: add Rewind to the Spotify playlist once it's live there (no site change needed).

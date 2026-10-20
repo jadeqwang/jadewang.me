@@ -7,7 +7,7 @@ It's a single static page: plain HTML, CSS and a little JavaScript. There's no b
 ## Before it goes live
 
 - [x] **Bio**: done (About section of `index.html`).
-- [x] **Moongazing 望明月**: links to its own Spotify track.
+- [x] **Moongazing (望明月)**: links to its own Spotify track.
 - [x] **YouTube video**: the *Watch* box plays Rewind.
 - [ ] **Rewind on Spotify**: once it's live there, add it to the "Rare Earth (album)" playlist.
 
