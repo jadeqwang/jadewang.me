@@ -217,6 +217,30 @@ a:hover { color: var(--orange); }
   text-transform: uppercase; color: var(--blue);
 }
 
+/* ---------- made for the songs ---------- */
+.made {
+  background: var(--cream); color: var(--navy);
+  padding: var(--section-y) var(--pad);
+}
+.made .wrap { display: flex; flex-direction: column; gap: 48px; }
+.made-title { font-size: clamp(40px, 5vw, 64px); }
+.made-list {
+  list-style: none; padding: 0; margin: 0;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 56px 48px;
+}
+.made-card { display: flex; flex-direction: column; align-items: flex-start; gap: 16px; text-decoration: none; }
+.made-card:hover { color: inherit; } /* orange text fails contrast on cream */
+.made-card picture { align-self: stretch; }
+.made-card img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.made-card h3 { font-size: clamp(28px, 3vw, 36px); text-transform: uppercase; word-break: keep-all; }
+.made-card p:not(.kicker) { max-width: 560px; }
+.made-link {
+  display: inline-flex; align-items: center; min-height: 44px;
+  font-family: var(--mono); font-size: 14px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase;
+  text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px;
+}
+.made-card:hover .made-link { text-decoration-thickness: 2px; }
+
 /* ---------- about ---------- */
 .about {
   position: relative; overflow: hidden; background: var(--cream); color: var(--navy);
