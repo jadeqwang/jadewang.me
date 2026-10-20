@@ -29,7 +29,7 @@ Then open http://localhost:8000. The Spotify player only loads when you're onlin
 | Coming soon | `track track--soon` | `<span class="track-status">Coming soon</span>` |
 | In the works | `track track--wip` | `<span class="track-status">In the works</span>` |
 
-Also update "Four are out now" in the intro paragraph.
+Also update "Four are out now" in the intro paragraph, and add the song to the "Rare Earth (album)" playlist in Spotify. The *Listen* player shows that playlist, so it updates on its own.
 
 **Choose the YouTube video.** In `index.html`, search for `YOUTUBE` and fill in one attribute on the `.yt` box:
 
