@@ -33,7 +33,7 @@ The palette comes from the album artwork and matches the printed MOO card.
 - Artist: Jade Q Wang. Spotify artist `7vnTuvlsowMY5XmkqCdc84`, YouTube `@JadeQWang`, X `@qiqing`.
 - *Rare Earth* is an album released one song at a time. There's no album release date, so don't add one.
 - Songs: Moongazing 望明月 (out; still needs its own track link), Orbital Sunrise (out, track `1ovDSfnoA9JPNdYeWgjdYo`), Rare Earth (out in two versions: alt pop `42m7clPxBmOoHmdSFTCLIb`, techno remix `3o6YBqvXcNFlbVY5TlZDpd`), Rewind (coming soon), Halys (in the works).
-- Open TODOs in `index.html`: the bio placeholder, the Moongazing link, and the YouTube `data-yt-video` / `data-yt-list`.
+- Open TODOs in `index.html`: the Moongazing link and the YouTube `data-yt-video` / `data-yt-list`.
 
 ## Common tasks
 

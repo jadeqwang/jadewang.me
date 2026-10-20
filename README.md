@@ -6,7 +6,7 @@ It's a single static page: plain HTML, CSS and a little JavaScript. There's no b
 
 ## Before it goes live
 
-- [ ] **Bio**: replace the `[Your bio …]` placeholder in the About section of `index.html`.
+- [x] **Bio**: done (About section of `index.html`).
 - [ ] **Moongazing 望明月**: its *Listen* link points to the artist page; swap in the song's own Spotify link.
 - [ ] **YouTube video**: pick what plays in the *Watch* box (see below). Until then it links to the channel.
 
