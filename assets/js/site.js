@@ -33,6 +33,30 @@ document.querySelectorAll(".yt").forEach((box) => {
   });
 });
 
+// Even out the bio's line lengths. CSS text-wrap: balance gives up past 6 lines
+// in Chrome, which left a short last line. Narrow each paragraph as far as it
+// goes without adding a line; the card centers it.
+const card = document.querySelector(".about-card");
+const balance = () => {
+  card.querySelectorAll("h2 ~ p").forEach((p) => {
+    p.style.maxWidth = "";
+    const height = p.offsetHeight;
+    let lo = p.offsetWidth / 2;
+    let hi = p.offsetWidth;
+    while (hi - lo > 1) {
+      const mid = (lo + hi) / 2;
+      p.style.maxWidth = `${mid}px`;
+      if (p.offsetHeight > height) lo = mid;
+      else hi = mid;
+    }
+    p.style.maxWidth = `${hi}px`;
+  });
+};
+if (card) {
+  new ResizeObserver(balance).observe(card);
+  document.fonts?.ready.then(balance);
+}
+
 // Keep the footer year current.
 document.querySelectorAll("[data-year]").forEach((el) => {
   el.textContent = String(new Date().getFullYear());
