@@ -30,7 +30,7 @@ The palette comes from the album artwork and matches the printed MOO card.
 
 ## Content facts (don't invent others)
 
-- Artist: Jade Q Wang. Spotify artist `7vnTuvlsowMY5XmkqCdc84`, "Rare Earth (album)" playlist `7i22u5oEuRglDkWD7JoBW7` (the Listen player embeds it), YouTube `@JadeQWang`, X `@qiqing`.
+- Artist: Jade Q Wang. Spotify artist `7vnTuvlsowMY5XmkqCdc84`, "Rare Earth (album)" playlist `7i22u5oEuRglDkWD7JoBW7` (the Listen player embeds it), YouTube `@JadeQWang`, X `@qiqing`, RedNote "Qiqing" (profile `678957e1000000000a03ded5`, footer link only; the nav has no room at 390px).
 - *Rare Earth* is an album released one song at a time. There's no album release date, so don't add one.
 - Songs (Spotify track / YouTube video): Moongazing (望明月) (`5iaRwTBBWpLqXfElAgSNIY` / `_j_IVgA-pf8`), Orbital Sunrise (`1ovDSfnoA9JPNdYeWgjdYo` / `GKVOH-Tjd2U`), Rare Earth (alt pop `42m7clPxBmOoHmdSFTCLIb`, Spotify only; techno remix, the popular version, `3o6YBqvXcNFlbVY5TlZDpd` / `xk2WN7TQn88`), Rewind (Spotify pending / `BU4htU-Rrog`), Merge (in the works), Hold Fire (in the works), The Vibe Coding Song (一笔一画) (in the works, next up), Halys (in the works).
 - Tracklist rows link to YouTube ("Watch →"), one link per song; Spotify is covered by the playlist player and the Follow button.
