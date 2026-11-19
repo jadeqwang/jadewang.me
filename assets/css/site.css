@@ -113,6 +113,7 @@ a:hover { color: var(--orange); }
 }
 .hero-kicker {
   align-self: flex-start; color: var(--blue); text-decoration: none;
+  padding: 13px 0; margin: -13px 0; /* 44px tap target without moving the text */
   font-family: var(--mono); font-size: 14px; font-weight: 500;
   letter-spacing: 0.14em; line-height: 1.4; text-transform: uppercase;
 }
@@ -131,7 +132,7 @@ a:hover { color: var(--orange); }
 }
 .signup input::placeholder { color: var(--blue); opacity: 1; }
 .signup .button { border: 0; cursor: pointer; }
-.signup-note { font-family: var(--mono); font-size: 13px; letter-spacing: 0.06em; line-height: 1.4; color: var(--blue); }
+.signup-note { font-family: var(--mono); font-size: 13px; letter-spacing: 0.06em; line-height: 1.4; color: var(--blue); text-wrap: balance; }
 
 .hero-art img {
   width: 100%; height: auto; min-height: 260px;
@@ -249,6 +250,7 @@ a:hover { color: var(--orange); }
 .made-card:hover { color: inherit; } /* orange text fails contrast on cream */
 .made-card picture { align-self: stretch; }
 .made-card img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.made-card img.og-ratio { aspect-ratio: 1200 / 630; } /* link-preview art, shown uncropped */
 .made-card h3 { font-size: clamp(28px, 3vw, 36px); text-transform: uppercase; word-break: keep-all; }
 .made-card p:not(.kicker) { max-width: 560px; text-wrap: pretty; }
 .made-link {
