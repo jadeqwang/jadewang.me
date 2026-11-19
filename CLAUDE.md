@@ -39,7 +39,7 @@ The palette comes from the album artwork and matches the printed MOO card.
 
 ## Common tasks
 
-- **Tracklist changes:** edit the `<ol class="tracklist">`; status classes are documented in the HTML comment above it and in README.md. Keep the intro's "Four are out now" count in sync.
+- **Tracklist changes:** edit the `<ol class="tracklist">`; status classes are documented in the HTML comment above it and in README.md. Released songs link both the title and "Watch →" to the YouTube video.
 - **New or replaced images:** export both `.webp` and `.jpg` (quality ~82) into `assets/img/`, keep `width`/`height` attributes accurate, and use `loading="lazy"` for anything below the hero.
 - **Link preview image:** `assets/img/og-image.jpg` is 1200×630. If the name or tagline changes, regenerate it to match.
 
