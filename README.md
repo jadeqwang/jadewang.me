@@ -8,7 +8,7 @@ It's a single static page: plain HTML, CSS and a little JavaScript. There's no b
 
 - [x] **Bio**: done (About section of `index.html`).
 - [x] **Moongazing (望明月)**: links to its own video.
-- [x] **YouTube video**: the *Watch* box plays Rewind.
+- [x] **YouTube video**: the *Watch* box plays the "Jade Wang music videos" playlist (`PLYfyMosbqseI`), starting with whichever video is first in it.
 - [ ] **Rewind on Spotify**: once it's live there, add it to the "Rare Earth (album)" playlist.
 
 ## Preview it on your computer
